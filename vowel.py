@@ -1,13 +1,5 @@
 n=str(input('Enter a character'))
-if(n=='a'):
-    print('Vowel')
-elif(n=='e'):
-    print('Vowel')
-elif(n=='i'):
-    print('Vowel')
-elif(n=='o'):
-    print('Vowel')
-elif(n=='u'):
+if(n=='a'or n=='A' or n=='e' or n=='E' or n=='i' or n=='I' or n=='o' or n=='O' or n=='u'or n=='U'):
     print('Vowel')
 else:
-    print('Constant')
+    print('Consonant')
