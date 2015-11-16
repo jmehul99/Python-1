@@ -1,5 +1,8 @@
-n=str(input('Enter a character'))
-if(n=='a'or n=='A' or n=='e' or n=='E' or n=='i' or n=='I' or n=='o' or n=='O' or n=='u'or n=='U'):
-    print('Vowel')
-else:
-    print('Consonant')
+def main():
+    i = str(input('Enter a character : '))
+    if(i == 'a' or i == 'A' or i == 'e' or i == 'E' or i == 'i' or i == 'I' or i == 'o' or i == 'O' or i == 'u' or i == 'U'):
+        print('Vowel')
+    else:
+        print('Consonant')
+if __name__ == '__main__':
+    main()
