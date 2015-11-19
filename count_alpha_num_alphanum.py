@@ -1,7 +1,7 @@
 def main():
   string = str(input("Enter the string"))
   alpha = 0
-  alnum = 0
+  spl = 0
   num = 0
   max = len(string)
   l = list(string)
@@ -12,8 +12,8 @@ def main():
     elif(a.isdigit() == True):
         num += 1
     else:
-        alnum += 1
-  print("alpha = %d num = %d alphanum =%d"%(alpha,num,alnum))
+        spl += 1
+  print("alpha = %d num = %d special =%d"%(alpha,num,spl))
 
 if __name__ == '__main__':
     main()
