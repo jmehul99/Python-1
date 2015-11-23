@@ -5,9 +5,9 @@ def main():
     for i in range(0,len(week)):
         if(check == week[i]):
             if(i == 6):
-                print("HoliDay")
+                print(False)
             else:
-                print("Working day")
+                print(True)
         else:
             count += 1
             if(count == 7):
