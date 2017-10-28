@@ -1,2 +1,2 @@
 # Python
-This repository created   beginners
+This repository created    beginners
